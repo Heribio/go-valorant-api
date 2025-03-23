@@ -1921,11 +1921,11 @@ type GetMatchResponse struct {
 				Economy struct {
 					Spent struct {
 						Overall int `json:"overall"`
-						Average int `json:"average"`
+						Average float64 `json:"average"`
 					} `json:"spent"`
 					LoadoutValue struct {
 						Overall int `json:"overall"`
-						Average int `json:"average"`
+						Average float64 `json:"average"`
 					} `json:"loadout_value"`
 				} `json:"economy"`
 				DamageMade     int `json:"damage_made"`
@@ -1994,11 +1994,11 @@ type GetMatchResponse struct {
 				Economy struct {
 					Spent struct {
 						Overall int `json:"overall"`
-						Average int `json:"average"`
+						Average float64 `json:"average"`
 					} `json:"spent"`
 					LoadoutValue struct {
 						Overall int `json:"overall"`
-						Average int `json:"average"`
+						Average float64 `json:"average"`
 					} `json:"loadout_value"`
 				} `json:"economy"`
 				DamageMade     int `json:"damage_made"`
@@ -2067,11 +2067,11 @@ type GetMatchResponse struct {
 				Economy struct {
 					Spent struct {
 						Overall int `json:"overall"`
-						Average int `json:"average"`
+						Average float64 `json:"average"`
 					} `json:"spent"`
 					LoadoutValue struct {
 						Overall int `json:"overall"`
-						Average int `json:"average"`
+						Average float64 `json:"average"`
 					} `json:"loadout_value"`
 				} `json:"economy"`
 				DamageMade     int `json:"damage_made"`

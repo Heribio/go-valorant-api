@@ -1,3 +1,3 @@
-module github.com/yldshv/go-valorant-api
+module github.com/Heribio/go-valorant-api
 
 go 1.21.1
